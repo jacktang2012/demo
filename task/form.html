@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="GB2312">
+	<title>form and table</title>
+</head>
+<body>
+<table border="1">
+<caption>日程安排表</caption>
+<colgroup>
+<col style="background-color:yellow;">
+<col style="background-color:green;">
+<col style="background-color:red;">
+<col style="background-color:orange;">
+<col style="background-color:pink;">
+<col style="background-color:blue;">
+<col span="2"; style="background-color:purple;">
+</colgroup>
+	<thead> 
+		<tr> 
+			<td>时间</td>
+			<td>周一</td>
+			<td>周二</td>
+			<td>周三</td>
+			<td>周四</td>
+			<td>周五</td>
+			<td>周六</td>
+			<td>周天</td>
+		</tr>
+	</thead> 
+	<tbody> 	
+		<tr>
+			<td>做哪些事</td>
+			<td>工作</td>
+			<td>代码</td>
+			<td>健身</td>
+			<td>代码</td>
+			<td>健身</td>
+			<td>代码</td>
+			<td>代码</td>	
+		</tr>
+	</tbody>
+</table>
+<form action="search" method="post">
+你的身高/厘米：
+<br>
+<input type="text" name="身高" value="0" placeholder="输入身高">
+<br>
+你的体重/千克：
+<br>
+<input type="text" name="体重" value="0" placeholder="输入体重">
+<br>
+<button>计算体重指数</button>
+<button type="reset">重置</button>
+<br>
+<br>
+<br>
+用户名：
+<br>
+<input type="text" name="昵称"  placeholder="输入昵称" required>
+<br>
+你的体重/千克：
+<br>
+<input type="password" name="密码"  placeholder="输入密码" required>
+<br>
+<button>提交</button>
+<button type="reset">重新填写</button>
+</form>
+
+
+</body>
+</html>
