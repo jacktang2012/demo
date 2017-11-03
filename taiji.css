@@ -32,3 +32,13 @@
     width: 12px;
     height: 12px;
 }
+.haha {
+  height: 515px;
+  background-image: url(./rs-cover.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.haha .hehe {
+  height: 515px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
